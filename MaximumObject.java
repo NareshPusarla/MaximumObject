@@ -1,6 +1,6 @@
 package com.bridgelabz.generics;
 
-public class MaximumObject {
+public class MaximumObject<T extends Comparable<T>> {
 	
 	public static <T extends Comparable<T>> T maximum(T x,T y,T z) {
 		
