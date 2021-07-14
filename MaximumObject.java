@@ -34,9 +34,13 @@ public class MaximumObject <T extends Comparable<T>> {
 
 	public static void main(String[] args) {
 		Integer x = 3, y = 4, z = 5;
+		Float xf =  6.1f, yf = 4.115f, zf = 5.1f;
 		
 		MaximumObject maxObject = new MaximumObject(x, y, z);
 		maxObject.maximum();
+		
+		MaximumObject maxObject1 = new MaximumObject(xf, yf, zf);
+		maxObject1.maximum();
 	}
 
 }
